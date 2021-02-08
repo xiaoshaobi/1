@@ -1,5 +1,8 @@
 package sync;
 
+/**
+ * 2.1 对象锁的形式1- 同步代码块
+ */
 public class SynchronizedObjectCodeBlock2 implements Runnable {
     private static SynchronizedObjectCodeBlock2 instance = new SynchronizedObjectCodeBlock2();
     Object lock1 = new Object();
